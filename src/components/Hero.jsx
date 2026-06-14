@@ -51,7 +51,7 @@ export default function Hero() {
         <motion.div className="hero-stats" variants={fadeUp} initial="hidden" animate="show" custom={6}>
           <div className="stat"><div className="num">{ais.length}+</div><div className="lbl">Outils</div></div>
           <div className="stat"><div className="num">{categories.length}</div><div className="lbl">Catégories</div></div>
-          <div className="stat"><div className="num">∞</div><div className="lbl">Possibilités</div></div>
+          <div className="stat"><div className="num"><span className="inf">∞</span></div><div className="lbl">Possibilités</div></div>
           <div className="stat"><div className="num">0€</div><div className="lbl">Pour commencer</div></div>
         </motion.div>
       </div>
