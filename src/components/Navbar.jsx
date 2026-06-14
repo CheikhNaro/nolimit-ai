@@ -1,9 +1,11 @@
 import { NavLink, Link, useNavigate } from "react-router-dom";
 import { useFavorites } from "../context/FavoritesContext";
-import { Search, Heart, Bolt } from "./Icons";
+import { useTheme } from "../context/ThemeContext";
+import { Search, Heart, Bolt, Sun, Moon } from "./Icons";
 
 export default function Navbar() {
   const { favorites } = useFavorites();
+  const { theme, toggle } = useTheme();
   const navigate = useNavigate();
 
   return (
@@ -11,7 +13,7 @@ export default function Navbar() {
       <div className="wrap nav-inner">
         <Link to="/" className="brand">
           <span className="mark"><Bolt /></span>
-          <span><span className="no">MegaIA</span><span className="limit"> Pro</span></span>
+          <span><span className="no">No</span><span className="limit">Limit-Ai</span></span>
         </Link>
 
         <nav className="nav-links">
@@ -26,6 +28,10 @@ export default function Navbar() {
           <Search width="16" height="16" />
           Rechercher une IA
           <kbd>/</kbd>
+        </button>
+
+        <button className="nav-fav" onClick={toggle} aria-label={theme === "light" ? "Mode sombre" : "Mode clair"} style={{ borderColor: "var(--line)" }}>
+          {theme === "light" ? <Moon /> : <Sun />}
         </button>
 
         <Link to="/favoris" className="nav-fav" aria-label="Favoris">

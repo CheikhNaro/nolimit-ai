@@ -1,5 +1,5 @@
-// Curated AI directory — data sourced & organized from fmhy.net/ai
-// Each category carries its own signature accent for the maximalist colorway.
+// NoLimit-Ai directory
+// Gruvbox-themed category accents
 
 export const categories = [
   {
@@ -7,7 +7,7 @@ export const categories = [
     label: "Chatbots",
     tagline: "Assistants conversationnels",
     blurb: "Les grands modèles, prêts à discuter, coder et réfléchir avec toi.",
-    accent: "#b6f24a",
+    accent: "#d79921",
     glyph: "✺",
   },
   {
@@ -15,7 +15,7 @@ export const categories = [
     label: "Recherche & Savoir",
     tagline: "Chercher, comprendre, apprendre",
     blurb: "Moteurs de recherche IA, lecture de documents et assistants d'étude.",
-    accent: "#22e0d6",
+    accent: "#458588",
     glyph: "❖",
   },
   {
@@ -23,7 +23,7 @@ export const categories = [
     label: "Images",
     tagline: "Génération & édition d'images",
     blurb: "Du prompt au visuel : créer, éditer et réinventer en pixels.",
-    accent: "#ff2e93",
+    accent: "#d3869b",
     glyph: "✦",
   },
   {
@@ -31,7 +31,7 @@ export const categories = [
     label: "Vidéo",
     tagline: "Texte → mouvement",
     blurb: "Anime tes idées : génération de plans, clips et boucles.",
-    accent: "#ff6a3d",
+    accent: "#d65d0e",
     glyph: "▶",
   },
   {
@@ -39,7 +39,7 @@ export const categories = [
     label: "Musique & Audio",
     tagline: "Composer sans instrument",
     blurb: "Musique, ambiances et samples générés à la demande.",
-    accent: "#9d6bff",
+    accent: "#b16286",
     glyph: "♫",
   },
   {
@@ -47,7 +47,7 @@ export const categories = [
     label: "Voix",
     tagline: "Synthèse & clonage vocal",
     blurb: "Donne une voix à tes textes, ou clone la tienne.",
-    accent: "#ffcf33",
+    accent: "#fabd2f",
     glyph: "◉",
   },
   {
@@ -55,7 +55,7 @@ export const categories = [
     label: "Agents",
     tagline: "IA autonomes",
     blurb: "Des assistants qui agissent, naviguent et exécutent pour toi.",
-    accent: "#4d8bff",
+    accent: "#83a598",
     glyph: "◆",
   },
   {
@@ -63,7 +63,7 @@ export const categories = [
     label: "Roleplay",
     tagline: "Personnages & narration",
     blurb: "Crée des personnages, joue des histoires interactives.",
-    accent: "#ff4d6d",
+    accent: "#cc241d",
     glyph: "☾",
   },
   {
@@ -71,7 +71,7 @@ export const categories = [
     label: "IA Locale",
     tagline: "Hors-ligne, chez toi",
     blurb: "Fais tourner les modèles sur ta propre machine, en privé.",
-    accent: "#5be584",
+    accent: "#98971a",
     glyph: "▣",
   },
   {
@@ -79,7 +79,7 @@ export const categories = [
     label: "Outils",
     tagline: "Utilitaires & comparateurs",
     blurb: "Comparer les prix, augmenter les chatbots, explorer l'écosystème.",
-    accent: "#c9a0ff",
+    accent: "#8ec07c",
     glyph: "✜",
   },
 ];

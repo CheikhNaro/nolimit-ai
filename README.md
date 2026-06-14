@@ -1,4 +1,4 @@
-# MegaIA Pro
+# NoLimit-Ai
 
 Le portail des intelligences artificielles — découvre, filtre et lance les
 meilleures IA gratuites, classées par catégorie (chatbots, images, vidéo,
@@ -12,7 +12,7 @@ Construit avec **React + Vite**, **React Router** et **Framer Motion**.
 - 🗂️ Catégories façon « portail streaming » (rangées scrollables)
 - 📄 Page détail par IA (description, tags, lien direct)
 - ❤️ Favoris persistés en `localStorage`
-- 🎨 Design « neo-arcade » coloré, fond animé, responsive
+- 🎨 Design gruvbox light hard, fond animé, responsive
 
 ## Développement
 
@@ -28,6 +28,5 @@ npm run preview  # prévisualiser le build
 Optimisé pour **Vercel** (preset Vite détecté automatiquement). Aucune
 configuration nécessaire : build `npm run build`, dossier de sortie `dist/`.
 
----
 
-Données curées depuis [fmhy.net/ai](https://fmhy.net/ai).
+

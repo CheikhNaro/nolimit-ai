@@ -19,9 +19,9 @@ export default function Hero() {
     <section className="hero">
       <div className="wrap">
         <motion.div className="hero-tags" variants={fadeUp} initial="hidden" animate="show" custom={0}>
-          <span className="chip"><Bolt width="12" height="12" style={{ color: "var(--lime)" }} /> {ais.length} IA référencées</span>
+          <span className="chip"><Bolt width="12" height="12" style={{ color: "var(--yellow)" }} /> {ais.length} IA référencées</span>
           <span className="chip">{categories.length} catégories</span>
-          <span className="chip" style={{ color: "var(--lime)" }}>100% gratuit</span>
+          <span className="chip" style={{ color: "var(--yellow)" }}>100% gratuit</span>
         </motion.div>
 
         <h1>

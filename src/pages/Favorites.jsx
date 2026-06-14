@@ -20,7 +20,7 @@ export default function Favorites() {
       <div className="wrap" style={{ paddingTop: 24 }}>
         {items.length === 0 ? (
           <div className="empty">
-            <div className="em" style={{ color: "var(--magenta)" }}><Heart filled style={{ width: 56, height: 56 }} /></div>
+            <div className="em" style={{ color: "var(--red)" }}><Heart filled style={{ width: 56, height: 56 }} /></div>
             <h3>Aucun favori pour l'instant</h3>
             <p style={{ marginBottom: 24 }}>
               Clique sur le cœur d'une IA pour la retrouver ici en un clin d'œil.

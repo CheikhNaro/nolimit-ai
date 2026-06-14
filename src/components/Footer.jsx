@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <Link to="/" className="brand">
               <span className="mark"><Bolt /></span>
-              <span><span className="no">MegaIA</span><span className="limit"> Pro</span></span>
+              <span><span className="no">No</span><span className="limit">Limit-Ai</span></span>
             </Link>
             <p>
               Le portail des intelligences artificielles. Découvre, filtre et lance
@@ -39,8 +39,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} MegaIA Pro — toute l'IA au même endroit.</span>
-          <span>Données curées depuis fmhy.net/ai</span>
+          <span>© {new Date().getFullYear()} NoLimit-Ai — toutes tes IA gratuites au même endroit.</span>
         </div>
       </div>
     </footer>

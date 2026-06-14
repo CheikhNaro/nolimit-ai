@@ -54,7 +54,7 @@ export default function Detail() {
           <div className="detail-tags">
             {ai.tags.map((t) => <span key={t} className="chip">#{t}</span>)}
             {ai.free && <span className="chip" style={{ color: cat.accent }}>● Gratuit</span>}
-            {ai.hot && <span className="chip" style={{ color: "var(--magenta)" }}>🔥 Populaire</span>}
+            {ai.hot && <span className="chip" style={{ color: "var(--red)" }}>🔥 Populaire</span>}
           </div>
 
           <div className="detail-actions">
@@ -64,7 +64,7 @@ export default function Detail() {
             <button
               className="btn btn-ghost"
               onClick={() => toggle(ai.id)}
-              style={fav ? { borderColor: "var(--magenta)", color: "var(--magenta)" } : undefined}
+              style={fav ? { borderColor: "var(--red)", color: "var(--red)" } : undefined}
             >
               <Heart filled={fav} /> {fav ? "Dans tes favoris" : "Ajouter aux favoris"}
             </button>
