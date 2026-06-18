@@ -187,6 +187,7 @@ export const ais = [
   { id: "pageassist", name: "Page Assist", url: "https://github.com/n4ze3m/page-assist", category: "tools", desc: "Extension navigateur pour interroger tes modèles locaux.", tags: ["extension", "local"], free: true },
   { id: "huggingface", name: "Hugging Face", url: "https://huggingface.co/", category: "tools", desc: "Le hub central des modèles, datasets et démos IA.", tags: ["hub", "modèles"], free: true },
   { id: "modelsdev", name: "Models.dev", url: "https://models.dev/", category: "tools", desc: "Base de données ouverte des modèles et de leurs specs.", tags: ["annuaire", "specs"], free: true },
+  { id: "roblox-gui-maker", name: "Roblox GUI Maker", url: "https://robloxguimaker.dev/", category: "tools", desc: "Planificateur IA gratuit pour interfaces Roblox Studio : ScreenGui, HUD, menus et code Lua de départ.", tags: ["roblox", "ui", "code"], free: true },
   { id: "vramcalc", name: "VRAM Calculator", url: "https://huggingface.co/spaces/NyxKrage/LLM-Model-VRAM-Calculator", category: "tools", desc: "Estime la VRAM nécessaire pour faire tourner un modèle.", tags: ["local", "calcul"], free: true },
 ];
 
